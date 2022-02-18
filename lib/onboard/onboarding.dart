@@ -2,7 +2,7 @@ import 'dart:ffi';
 
 import 'package:flutter/material.dart';
 import 'package:kartal/kartal.dart';
-import 'package:splash_example/onBoard_model.dart';
+import 'package:splash_example/onboard/onBoard_model.dart';
 
 class OnBoard extends StatefulWidget {
   const OnBoard({Key? key}) : super(key: key);

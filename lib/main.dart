@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:splash_example/onboard/onboarding.dart';
 
+import 'login/loginPage.dart';
+
 void main() {
   runApp(splashPage());
 }
@@ -16,7 +18,8 @@ class _splashPageState extends State<splashPage> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: OnBoard(),
+      theme: ThemeData(primarySwatch: Colors.red),
+      home: loginUi(),
     );
   }
 }
