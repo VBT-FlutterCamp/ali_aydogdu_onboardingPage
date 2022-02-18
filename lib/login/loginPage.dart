@@ -66,7 +66,7 @@ class _loginUiState extends State<loginUi> {
                   keyboardType: TextInputType.visiblePassword,
                   obscureText: !_passwordVisible ? true : false,
                   decoration: InputDecoration(
-                    labelText: "Enter Password...",
+                    labelText: "Enter Password..",
                     border: OutlineInputBorder(),
                     prefixIcon: Icon(Icons.lock),
                     suffixIcon: IconButton(
